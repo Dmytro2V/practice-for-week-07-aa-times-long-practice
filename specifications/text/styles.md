@@ -5,18 +5,18 @@
 - black: #000000
 - blue: #326891;
 - dark blue: #4d7b9f;
-- dark gray: #6f6f6f;
++- dark gray: #6f6f6f;
 - darkest blue: #265e8b;
 - gray: #999;
 - light blue: #6288a5;
 - light gray: #e2e2e2;
 - lightest blue: #f0f8fc;
-- lightest gray: #f7f7f5;
++ - lightest gray: #f7f7f5;
 - white: #ffffff;
 
 ## External resources
 
-- Font Awesome: https://use.fontawesome.com/releases/v5.0.12/css/all.css
++- Font Awesome: https://use.fontawesome.com/releases/v5.0.12/css/all.css
 
 ## Fonts
 
@@ -57,4 +57,4 @@ Paragraphs:
 
 ## Measurements
 
-Overall content width: maximum 1400px
++Overall content width: maximum 1400px

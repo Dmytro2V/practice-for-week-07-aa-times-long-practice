@@ -1,1 +1,53 @@
 /* Your code here */
+.masthead {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    grid-template-rows: auto;  
+    grid-template-areas:
+    "menu-and-search . actions" 
+    " . technologies  ."
+    "date logo paper";
+}
+.masthead__menu-and-search {
+    grid-area: menu-and-search;  
+    display: flex;
+    align-items: center;
+    padding-left: 20px;       
+    
+}
+.masthead__menu-and-search__icons {        
+    font-size: 11px;
+    padding: 7px 9px;  
+}
+.masthead__menu-and-search__icons:hover  {
+    background-color: #f7f7f5;    
+}
+.masthead__actions {
+    grid-area: actions;   
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 10px;
+                      
+}
+.masthead__technologies {
+    grid-area: technologies;
+    display: flex;
+    justify-content:center;
+}
+.masthead__technologies__tech-name {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #6f6f6f;
+    margin: auto 2px;    
+}
+.masthead__date {
+    grid-area: date;
+}
+.masthead__logo {
+    grid-area: logo;
+    text-align: center;
+}
+.masthead__paper {
+    grid-area: paper;
+}
