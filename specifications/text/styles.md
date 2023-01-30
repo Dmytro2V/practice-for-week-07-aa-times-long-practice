@@ -9,7 +9,7 @@
 - darkest blue: #265e8b;
 - gray: #999;
 - light blue: #6288a5;
-- light gray: #e2e2e2;
++- light gray: #e2e2e2;
 - lightest blue: #f0f8fc;
 + - lightest gray: #f7f7f5;
 - white: #ffffff;
@@ -47,9 +47,9 @@ Buttons:
 
 Header 1:
 
-- bottom margin of 10 pixels
-- bottom padding of 10 pixels
-- font size is 28 pixels, style is italic, and weight is bold
++- bottom margin of 10 pixels
++- bottom padding of 10 pixels
++- font size is 28 pixels, style is italic, and weight is bold
 
 Paragraphs:
 

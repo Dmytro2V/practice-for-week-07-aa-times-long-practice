@@ -1,1 +1,77 @@
 /* Your code here */
+main {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0 20px;
+}
+h1.main-header {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+h2.main-subheader {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+.article__byline {
+    padding: 10px 0;
+     color: #999;
+}
+ul.article {    
+    list-style-type: disc;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+ul.article li {
+    padding-top: 10px;
+}
+.main__upper-left1 {
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.main__upper-left2 {
+    padding-right: 10px;
+    margin-right: 10px;    
+}
+.main__left-second-line {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.video {
+    width: fit-content;    
+    
+}
+
+div.comments {
+    padding-top: 10px;
+}
+a.comments {    
+    color:#4d7b9f;    
+}
+.main__big-bottom-left {
+    border-top: 1px solid black;
+    display:flex;    
+
+}
+@media only screen and (width < 1200px) {
+    .main__big-upper-right * {
+         display:none;
+    }
+}
+h1.opinions {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+h2.article__title {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 0 10px;
+    margin: 10px 0 10px;
+}

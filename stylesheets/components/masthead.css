@@ -1,53 +1,92 @@
 /* Your code here */
 .masthead {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);  
-    grid-template-rows: auto;  
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     grid-template-areas:
-    "menu-and-search . actions" 
-    " . technologies  ."
-    "date logo paper";
+        "menu-and-search . actions"
+        " . technologies  ."
+        "date logo paper";
 }
+
 .masthead__menu-and-search {
-    grid-area: menu-and-search;  
-    display: flex;
+    grid-area: menu-and-search;
+    display: flex;    
     align-items: center;
-    padding-left: 20px;       
-    
+    padding-left: 10px;
+
 }
-.masthead__menu-and-search__icons {        
+
+.masthead__menu-and-search__icons {
     font-size: 11px;
-    padding: 7px 9px;  
+    padding: 7px 9px;
 }
-.masthead__menu-and-search__icons:hover  {
-    background-color: #f7f7f5;    
+
+.masthead__menu-and-search__icons:hover {
+    background-color: #f7f7f5;
 }
+
 .masthead__actions {
-    grid-area: actions;   
+    grid-area: actions;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
     padding: 10px;
-                      
+
 }
+
 .masthead__technologies {
-    grid-area: technologies;
     display: flex;
-    justify-content:center;
+    grid-area: technologies;
+    justify-content: center;
+
 }
+
+.masthead__technologies__tech-names {
+
+    background-color: white;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    bottom: -1px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
 .masthead__technologies__tech-name {
     text-transform: uppercase;
     font-size: 10px;
     color: #6f6f6f;
-    margin: auto 2px;    
+    margin: auto 2px;
 }
+
 .masthead__date {
+    align-items: flex-end;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    display: flex;
+    font-size: 11px;
     grid-area: date;
+    padding-bottom: 11px;
 }
+
 .masthead__logo {
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
     grid-area: logo;
+    padding: 20px 0 11px;
     text-align: center;
+    ;
 }
-.masthead__paper {
+
+.masthead__paper { 
+    align-items: flex-end;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    display: flex;
+    font-size: 11px;
     grid-area: paper;
+    justify-content: flex-end;
+    padding-bottom: 11px;
 }

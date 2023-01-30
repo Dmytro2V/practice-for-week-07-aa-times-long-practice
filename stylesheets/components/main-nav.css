@@ -1,1 +1,10 @@
 /* Your code here */
+.main-nav__ul {
+    display:flex;
+    flex-direction: row;
+    font-size: 12p;
+    justify-content: center;
+}
+.main-nav__li {
+    padding: 10px;
+}
